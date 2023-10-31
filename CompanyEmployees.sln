@@ -5,17 +5,19 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees", "CompanyEmployees\CompanyEmployees.csproj", "{034D78E5-FAF6-415F-A1A5-1C17562FA11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{63A8F2D5-1B3F-4658-85FB-1BD6378346F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{63A8F2D5-1B3F-4658-85FB-1BD6378346F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{A33D112C-AA6C-4451-8156-B72872FF2741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{A33D112C-AA6C-4451-8156-B72872FF2741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{DCDF1DAB-A733-4878-8595-928A3AE670D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{DCDF1DAB-A733-4878-8595-928A3AE670D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{AE312EDE-CF4E-4B17-9310-DC7943CBECE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{AE312EDE-CF4E-4B17-9310-DC7943CBECE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{16090AD2-9B53-4EA6-A700-A2597901685F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{16090AD2-9B53-4EA6-A700-A2597901685F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{C608BDF7-8D07-4C0F-B6B3-A2DEE7BB8A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{C608BDF7-8D07-4C0F-B6B3-A2DEE7BB8A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Presentation", "CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj", "{6B5E55D7-220A-4BD3-9987-215F3AC5A69C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C608BDF7-8D07-4C0F-B6B3-A2DEE7BB8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C608BDF7-8D07-4C0F-B6B3-A2DEE7BB8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C608BDF7-8D07-4C0F-B6B3-A2DEE7BB8A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B5E55D7-220A-4BD3-9987-215F3AC5A69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5E55D7-220A-4BD3-9987-215F3AC5A69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5E55D7-220A-4BD3-9987-215F3AC5A69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5E55D7-220A-4BD3-9987-215F3AC5A69C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
